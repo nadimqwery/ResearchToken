@@ -1,10 +1,10 @@
 pragma solidity >=0.4.22 <0.6.0;
 
-contract DappToken {
+contract ResearchToken {
     string  public name = "Research Token";
     string  public symbol = "RCH";
     string  public standard = "RCH Token v1.0";
-    uint8   public decimals = 18; // same value as wei
+    uint8   public decimals = 18;
     uint256 public totalSupply;
 
     mapping(address => uint256) public balanceOf;
